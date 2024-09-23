@@ -5,6 +5,7 @@ return {
       formatters_by_ft = {
         ["html"] = { "prettier" },
         ["python"] = { "yapf" },
+        ["C"] = { "clang-format" },
       },
     },
   },
