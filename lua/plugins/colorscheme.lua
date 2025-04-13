@@ -7,8 +7,16 @@ return {
 
   { "Mofiqul/dracula.nvim" },
 
-  { "folke/tokyonight.nvim" },
-
+  {
+    "folke/tokyonight.nvim",
+    opts = {
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
+    },
+  },
   { "AlexvZyl/nordic.nvim" },
 
   { "LunarVim/horizon.nvim" },
@@ -16,7 +24,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "tokyonight",
     },
   },
 }
